@@ -18,3 +18,6 @@ def count_letters(text):
     for letter in letter_dict:
         print(f"'{letter}': {letter_dict[letter]}")
     return letter_dict
+
+def sorted_list(dictionary):
+    list = []
